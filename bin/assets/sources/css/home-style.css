@@ -164,7 +164,9 @@ p {
 }
 
 .shop-button-wrapper {
-    
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
     margin: 1rem;
     max-width: 29rem;
     height: 4.125rem;
@@ -176,7 +178,6 @@ p {
     font-weight: 600;
     color: var(--font-color-1);
     border-radius: 10px;
-    margin-left: 12px;
     max-width: 12rem;
     min-width: 12rem;
     height: 4.125rem;
