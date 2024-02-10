@@ -1,0 +1,97 @@
+:root {
+    /* COLOR PALETTE */
+    --main-color: #FFF7F1;
+    --contrast-color: #FFE4C9;
+    --accent-color1: #E78895;
+    --misc-color1: #9c6e51;
+
+    --font-color-1: #3F3429;
+    --description-color: #BED1CF;
+
+    /* FONT SIZES */
+    --body-text: 1rem;
+
+    --main-title: 5rem;
+    --title: 2rem;
+    --subtitle: 1.5rem;
+    
+    --buttons: 1rem;
+    --footer: 0.875rem;
+
+    --title-font: 'Courier New', sans-serif;
+    --body-font: 'Open Sans', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    max-width: 70rem;
+    margin-inline: auto;
+}
+
+
+.topbar {
+    margin-top: 1rem;
+    margin-inline: auto;
+    background-color: var(--contrast-color);
+    display: flex;
+    max-width: 62.5rem;
+    min-width: 30rem;
+    border-radius: 5px;
+    box-shadow: 0 5px 2px var(--accent-color1);
+    height: 3.75rem;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.sidemenu-icon {
+    margin-left: 20px;
+}
+
+.icons {
+    justify-content: space-between;
+    display: flex;
+    gap: 1.25rem;
+    margin-right: 20px;
+}
+
+.topbar button {
+    background-color: transparent;
+    border: none;
+}
+
+.topbar button img:hover {
+    width: 110%;
+    height: 110%;
+    cursor: pointer;
+}
+
+.header-banner {
+    margin-top: 1rem;
+    margin-inline: auto;
+    max-width: 62.5rem;
+    min-width: 30rem;
+    height: 225px;
+    background-color: var(--contrast-color);
+    box-shadow: 0 5px 2px var(--accent-color1);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-banner img, h1 {
+    min-width: 20%;
+    min-height: 20%;
+    font-size: 5rem;
+    font-family: var(--title-font);
+    color: var(--font-color-1);
+}
+
